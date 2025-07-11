@@ -109,16 +109,18 @@ Flask-SQLAlchemy: pip install Flask-SQLAlchemy
 Bootstrap 5: Incluído via CDN no template base
 
 Outras bibliotecas podem estar listadas no requirements.txt
-
+```
 📚 Referências e Recursos
-Documentação Flask
+- [Documentação Flask](https://flask.palletsprojects.com/)
 
-Flask-SQLAlchemy
+- [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/)
 
-Bootstrap 5
+- [Bootstrap 5](https://getbootstrap.com/)
 
-Jinja2 Templates
+- [Jinja2 Templates](https://jinja.palletsprojects.com/)
 
+```
+```
 🤝 Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests. 
 ```
