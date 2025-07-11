@@ -117,7 +117,5 @@ Outras bibliotecas podem estar listadas no requirements.txt
 - [Jinja2 Templates](https://jinja.palletsprojects.com/)
 
 ```
-```
 🤝 Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests. 
-```
