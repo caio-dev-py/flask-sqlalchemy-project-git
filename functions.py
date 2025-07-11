@@ -5,4 +5,4 @@ def validar_email(email):
         validate_email(email)
         return True
     except EmailNotValidError:
-        return False 
+        return False
