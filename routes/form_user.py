@@ -1,6 +1,7 @@
 from flask import Blueprint, render_template, url_for, redirect, flash, request 
-from models import db, usuario, nota
+from models import db, mail, usuario, nota
 from functions import validar_email
+from flask_mail import Message
 
 form_route = Blueprint('form', __name__)
 
@@ -40,6 +41,15 @@ def cadastrar_usuario():
                 db.session.commit()
 
                 nome_existente = usuario.query.filter_by(nome=nome).first()
+
+                msg = Message(
+                    subject='Nova mensagem recebida!',
+                    recipients=['caio.dev.araujo@gmail.com'],
+                    body=f'Nome: {nome}\nE-mail: {email}\nMensagem:\n{nota}'
+                )
+                
+                mail.send(msg)
+            
                 if not nome_existente:
                     flash ('Os dados foram enviados com sucesso.', 'success')
         

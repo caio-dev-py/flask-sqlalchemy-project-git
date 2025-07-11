@@ -1,6 +1,8 @@
 from flask_sqlalchemy import SQLAlchemy
+from flask_mail import Mail
 from datetime import datetime
 
+mail = Mail()
 db = SQLAlchemy()
 
 class usuario(db.Model):
