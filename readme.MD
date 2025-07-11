@@ -108,13 +108,38 @@ Bootstrap 5: Incluído via CDN no template base
 Outras bibliotecas podem estar listadas no requirements.txt
 ```
 📚 Referências e Recursos
-- [Documentação Flask](https://flask.palletsprojects.com/)
 
-- [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/)
+- [Flask 3.1.1](https://flask.palletsprojects.com/en/3.1.x/) – Framework web em Python
 
-- [Bootstrap 5](https://getbootstrap.com/)
+- [Flask-SQLAlchemy 3.1.1](https://flask-sqlalchemy.palletsprojects.com/en/3.1.x/) – ORM para Flask
 
-- [Jinja2 Templates](https://jinja.palletsprojects.com/)
+- [SQLAlchemy 2.0.41](https://docs.sqlalchemy.org/en/20/) – Biblioteca ORM para Python
+
+- [Jinja2 3.1.6](https://jinja.palletsprojects.com/en/3.1.x/) – Template engine para Python
+
+- [Werkzeug 3.1.3](https://werkzeug.palletsprojects.com/en/3.1.x/) – Biblioteca WSGI para Python, usada pelo Flask
+
+- [click 8.2.1](https://click.palletsprojects.com/en/8.2.x/) – Biblioteca para criação de comandos de terminal
+
+- [python-dotenv 1.1.1](https://github.com/theskumar/python-dotenv) – Lê variáveis de ambiente de arquivos .env
+
+- [email_validator 2.2.0](https://pypi.org/project/email-validator/) – Validação de emails
+
+- [blinker 1.9.0](https://pypi.org/project/blinker/) – Biblioteca para sinais (signals)
+
+- [greenlet 3.2.3](https://pypi.org/project/greenlet/) – Biblioteca para programação concorrente
+
+- [colorama 0.4.6](https://pypi.org/project/colorama/) – Coloração do terminal para Windows
+
+- [dnspython 2.7.0](https://pypi.org/project/dnspython/) – Biblioteca para DNS
+
+- [idna 3.10](https://pypi.org/project/idna/) – Suporte para nomes de domínio internacionalizados
+
+- [itsdangerous 2.2.0](https://pypi.org/project/itsdangerous/) – Ferramentas para dados seguros
+
+- [MarkupSafe 3.0.2](https://pypi.org/project/MarkupSafe/) – Segurança em strings para templates
+
+- [typing_extensions 4.14.1](https://pypi.org/project/typing-extensions/) – Extensões para tipagem do Python
 
 ```
 🤝 Contribuições
