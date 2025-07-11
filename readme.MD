@@ -54,35 +54,32 @@ flask-sqlalchemy-project/
 1. Clone o repositório:
 ```
 bash
+
 git clone https://github.com/seu-usuario/seu-repo.git
 cd flask-sqlalchemy-project
 
 bash
-Copy
-Edit
+
 git clone https://github.com/seu_usuario/seu_repositorio.git
 cd seu_repositorio
 Crie um ambiente virtual (opcional, mas recomendado):
 
 bash
-Copy
-Edit
+
 python -m venv venv
 source venv/bin/activate  # Linux / MacOS
 venv\Scripts\activate     # Windows
 Instale as dependências:
 
 bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Configure o banco de dados (SQLite por padrão) e outras variáveis em config.py, se necessário.
 
 Execute a aplicação:
 
 bash
-Copy
-Edit
+
 python app.py
 Acesse no navegador: http://127.0.0.1:5000
 
