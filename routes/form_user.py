@@ -25,12 +25,14 @@ def cadastrar_usuario():
 
     if request.method == 'POST':
         
+        # analisa se o email já existe
         email_existente = usuario.query.filter_by(email=email).first()
         if not email_existente:
             dados_usuario = usuario(nome=nome, email=email)
             db.session.add(dados_usuario)
             db.session.commit()
-        
+
+            # analisa se já existe alguma nota
             nota_existente = nota.query.filter_by(nota=nota_mensagem).first()
             if not nota_existente:
                 dados_nota = nota(nota=nota_mensagem, usuario_id=dados_usuario.id)
@@ -44,7 +46,7 @@ def cadastrar_usuario():
         return redirect(url_for('form.form'))
     
     flash('Dados enviados.', 'success')
-    return render_template('form_user.html', nome=nome, email=email)
+    return render_template('form_user.html')
 
 @form_route.route('/atualizar_usuario')
 def atualizar_usuario():
